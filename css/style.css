@@ -1,0 +1,143 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+
+    margin: auto;
+    width: fit-content;
+
+}
+
+body {
+    background-image: url(../img/fondo2.jpg);
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    /* background-color: rgb(2, 117, 146); */
+    background-color: rgb(29, 29, 29);
+    position: center;
+    text-align: center;
+    color: white;
+    font-size: 160%;
+}
+
+.title1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: center;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+li {
+    padding: 5px;
+    display: inline;
+}
+
+a {
+    color: white;
+    font-size: large;
+}
+/* .maininicio {
+    background-image: url(../img/logo.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+.pinicio {
+    position: center;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    /* background-color: rgb(2, 117, 146); */
+    background-color: rgb(29, 29, 29);
+    position: center;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+}
+
+.titulo2{
+    color: cyan;
+    font-family: cursive;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.imga {
+    margin: 20px;
+}
+
+.imgb {
+    margin: 20px;
+}
+
+.margen {
+    margin: auto;
+    background-color: rgb(29, 29, 29);
+    padding: 25px;
+    width: fit-content;
+    height: fit-content;
+    border: 5px inset rgb(29, 29, 29);
+}
+
+.nombres{
+    color: cyan;
+    font-size: 130%;
+}
+
+.margen2 {
+    margin: auto;
+    background-color: rgb(29, 29, 29);
+    padding: 50px;
+    width: fit-content;
+    height: fit-content;
+    border: 3px dotted;
+    color: white;
+
+}
+
+.margen3 {
+    background-color: rgb(34, 35, 36);
+    padding: auto;
+    width: 600px;
+    height: 360px;
+    border: 5px inset rgb(29, 29, 29);
+    color: white;
+
+}
+
+.contenedor2 {
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.c3{
+    margin-right: 30px;
+}
+
+p{
+    font-family: "Latin Modern Roman";
+    font-size: 100%;
+}
