@@ -10,8 +10,9 @@ BODY{
     text-align: center;
     background-color: black;
     color: white;
-    border: 0.5px inset;
+    border: 0.5px groove;
     border-radius: 20px;
+    position: relative;
 }
 /* Posicionamineto de la barra de navegacion y configuracion */
 li{
@@ -60,7 +61,7 @@ footer{
     color: white;
     background-color: rgb(0, 0, 0);
     margin-top: auto;
-    border: 1px solid;
+    border: 1px groove;
     border-radius: 20px;
 }
 
@@ -76,6 +77,7 @@ footer{
 .GridMainViajes{
     display: grid;
     justify-content: center;
+    gap: 20px;
     grid-template-areas:
     "v1 v2"
     "v3 v4"
@@ -115,6 +117,7 @@ footer{
     display: grid;
     position: center;
     justify-content: center;
+    gap: 20px;
     grid-template-areas:
     "imgp1 imgp2 imgp3";
     grid-template-columns: auto;
@@ -145,3 +148,22 @@ footer{
 }
 .efra{grid-area: efra;}
 .mis{grid-area: mis;}
+
+/* Estilo del main siguenos */
+
+.siguenos{
+    display:grid	;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    grid-template-areas:
+    ". formulario .";
+    grid-template-columns: auto;
+    grid-template-rows: auto; 
+}
+
+.formulario{grid-area: formulario; padding: 50px; background-color: rgb(70, 69, 70); margin: 20px; border: 1px solid black; border-radius: 20px; font-size: large;}
+
+input:invalid {
+    background-color: #ffdddd;
+}
